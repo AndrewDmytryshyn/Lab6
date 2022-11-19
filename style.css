@@ -1,0 +1,27 @@
+body{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+ }
+ .btn-download{
+    padding: 20px 60px;
+    text-transform: uppercase;
+    font-size: 30px;
+ }
+ .users{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+ }
+ .user{
+    border:2px solid #000;
+    margin: 20px;
+    padding: 20px;
+    color:#fff;
+ }
+ .user > *{
+    padding: 10px;
+    font-size: 14px;
+ }
